@@ -1,29 +1,11 @@
-# How to use
-Clone repo
 
-`git clone https://github.com/webdevmatics/webmall.git`
+Multiseller_Ecommarce project . It is build by Laravel 8 , Mysql , Bootstrap 4, Jquery.
+In this project there are some packages has been used like ...
 
-`Save .env.example as .env and put your database credentials`
+shopping cart: "darryldecode/cart": "^4.1",
+for seeding data :   "laravel/legacy-factories": "^1.1",
+In Admin panel :  "tcg/voyager": "1.4.*"
+laravel Liveware
+For search function : "nicolaslopezj/searchable": "^1.12",
+for payment getway :  "paypal/paypal-checkout-sdk": "1.0.1"
 
-
-Install the composer dependencies
-
-`composer install`
-
-
-Set application key
-
-`php artisan key:generate`   
-
-And Migrate with
-
-`php artisan migrate --seed` or `php artisan migrate:fresh --seed`
-
- `php artisan storage:link`
-
-
-Login Credentials for admin panel
-
- admin@webmall.com  password : password
- seller1@webmall.com  password : password
- seller2@webmall.com  password : password
